@@ -14,7 +14,7 @@ class Learning {
         myAccount.deposit(amount);
 
 
-        System.out.println("Withdraw more than is in my account");
+        System.out.println("Withdraw more than is in the account");
         myAccount.withdraw(1400);
 
 

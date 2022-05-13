@@ -44,9 +44,9 @@ public class BankAccount {
         System.out.println(" Withdraw complete " + ", Remaining funds " + amount);
     }
 
-    public void printBalance(double remainingBalance) {
+    public double printBalance(double remainingBalance) {
         remainingBalance = balance;
-        System.out.println("Your balance " + remainingBalance);
+        return remainingBalance;
 
 
     }
